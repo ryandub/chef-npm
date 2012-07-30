@@ -44,6 +44,9 @@ npm_package "xml" do
   action :install
 end
 
+directory "/tmp/t" do
+  action :create
+end
 
 npm_package "xml" do
   version "0.0.2"
